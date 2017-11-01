@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html ng-app="joe">
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+	<script src="/javascripts/lib/jquery-1.10.2.min.js"></script>  
+        <script src="/javascripts/lib/angular.min.js"></script>        
+        <script src="/javascripts/lib/angular-route.min.js"></script> 
+        <script src="/javascripts/lib/angular-resource.min.js"></script> 
+        <script src="/javascripts/lib/angular-cookies.min.js"></script>
+         <script src="/javascripts/lib/bootstrap.min.js"></script>  
+
+        <script src="/javascripts/app.js"></script> 
+        <script src="/javascripts/controllers.js"></script>        
+        <script src="/javascripts/services.js"></script>
+		  
+  </head>
+  <body>
+  </body>
+  
+	 
+	 
+	 <div id="widespace">
+	 	<h1 class="welcome">Welcome to Joseph Michael School of Information<br>
+		 Technology</h1>
+		
+		<div class="link">
+			<h2>New York Campus</h2>
+		</div>
+		
+		<div class="link2">
+			<h2> London Campus</h2>
+		</div>
+		
+	 </div>
+	 
+	 <div id="app_view">
+	 	<br>
+	 	<ul class="navi">
+		<li><a href="/#!/add">Add student</a></li>
+		<li><a href="/#!/view">View student</a></li>
+		
+		</ul>
+		
+		<div ng-view></div>
+		
+		
+		
+	 </div>
+	 
+	 
+	<div id="info"> 
+		 <div id="about">
+			<h2>About The School</h2>
+			<p class="line"><strong>Joseph Michael School of computing</strong>
+			 was founded in 2013 by Engineer Joseph micahel Bassey, a veteran software developer who saw the need to produce more solution
+			 engineers so as to keep in pace with the current trends in information technology. The school has produced more that 1200
+			 students since its inception</p>
+			
+		 </div>
+		 
+		  <div id="courses">
+			<h2>Our Courses</h2>
+			<p> We offer a wide range of course beginning with simple HTML to complex programming. Recently we have added a new course (<strong>
+			Artificial Intelligence</strong>) to our list of courses due to popular demand. Our courses include :
+			<ul>
+			<li>Artificial Intelligence</li>
+			<li>Python programming</li>
+			<li>Web development</li>
+			<li>Devop Operations</li>
+			<li>Golang programming</li>
+			<li>Javascript Es6 </li>
+			</ul>
+		 </div>
+		 
+		 
+		 <div class="clear"></div>
+	</div> 
+	
+	<div id="footer">
+			&copy;Joseph Bassey 2017 
+	</div>
+	 
+  </html>
+  
+   		
